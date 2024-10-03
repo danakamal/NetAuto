@@ -15,7 +15,7 @@ _((_)/((_|_))/ )\ _ )\ /((_|_))/ )\
                                       
 ```
                                           
-## Prerequisite
+## Prerequisites
 Your system should have Python 3.12 installed, with the following modules to successfully run the tool:
 + pip install inquirer==3.4.0
 + pip install typer==0.12.5
