@@ -24,5 +24,6 @@ Your system should have Python 3.12 installed, with the following modules to suc
 + pip install napalm==13.9.1
 
 ## Installation
+You can immediately install and run the tool by downloading the NetAuto.py file to your system.
 
 ## How to Use
