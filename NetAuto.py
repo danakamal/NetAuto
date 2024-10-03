@@ -47,8 +47,9 @@ def ping_ips(path, os, user, password):
             IP_add.append(ip)
         else:
             rprint(f"[red]{ip} is unreachable[/red]")
-            
-    bulk_or_not(ip, status, os, user, password, IP_add)
+            break
+    if IP_add:       
+        bulk_or_not(ip, status, os, user, password, IP_add)
 
 def bulk_or_not(ip, status, os, user, password, IP_add):
     questions = [
