@@ -3,8 +3,11 @@ NetAuto is a CLI tool has been developed for automating
 network operations on Cisco devices using Python's NAPALM,
 through uploading a configuration file. NetAuto provides secure automation through 
 the use of SSH and secure copy to transmit configuration files.
+
 This tool is intended for learning purposes, and to run on a development
-environment. It is recommended to create backups of your
+environment. 
+
+It is recommended to create backups of your
 device configurations before running any automation tasks.
 By using this tool, you agree that the developers and
 contributors are not liable for any damages or issues that
