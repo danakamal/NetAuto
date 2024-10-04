@@ -42,3 +42,18 @@ On the networking devices ensure the following is configured:
 You can immediately install and run the tool by downloading the NetAuto.py file to your system.
 
 ## How to Use
+1. From the command line run the tool: _python NetAuto.py_
+![1-run](https://github.com/user-attachments/assets/2b8bc761-480a-474d-be5c-01c78aac2f17)
+
+2. Choose the Cisco Operating System, and enter the parameters required for connection. The IP addresses should be added in a .txt file, which is entered in the tool.
+![2- IPs and connectivity](https://github.com/user-attachments/assets/9b1decfd-8742-4ae1-904b-991425d774dd)
+
+3. Choose the type of configuration, and then add the path to the configuration file:
+   - Bulk: One configuration file for all devices.
+   - Individual: Separate configuration files for each device.
+![3- config file](https://github.com/user-attachments/assets/4cbeaad9-2aa7-4eb4-90fd-dc17d8bfd581)
+
+4. Finally confirm the changes by either commiting the changes to the devices, or discarding the changes.
+![4- confirmation](https://github.com/user-attachments/assets/44cf3e09-c515-4b6c-99c9-33dc2640f053)
+
+
