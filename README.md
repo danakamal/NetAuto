@@ -30,6 +30,10 @@ Your system should have Python 3.12 installed, with the following modules to suc
 + pip install pythonping==5.0.0
 + pip install napalm==13.9.1
 
+On the networking devices ensure the following is configured:
++ SSH
++ ip scp server enable
+
 ## Installation
 You can immediately install and run the tool by downloading the NetAuto.py file to your system.
 
